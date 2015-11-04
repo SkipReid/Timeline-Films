@@ -1,0 +1,115 @@
+/* ---------------------------------------------------- */
+/* SLIDESHOW
+/* ---------------------------------------------------- */
+#slideshow { 
+	width: 960px;
+	height: 351px;
+	padding-bottom:20px;
+	background:transparent url(../images/slideshow/slideshow-shadow.jpg) no-repeat 0 bottom;
+	position:relative;
+}
+
+#slideshow ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 1%; /* IE fix */
+}
+
+#slideshow ul:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}            
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > SLIDES
+/* ---------------------------------------------------- */
+#slideshow .slides {
+	overflow: hidden;
+	width: 960px;
+	height:362px;
+	padding:0;
+	margin:0;
+}
+
+#slideshow .slides ul { width:960px; height:362px; }
+
+#slideshow .slides ul li {
+	width: 960px;
+	height:362px;
+	float: left;
+	padding:0;
+	display:none;
+	background:none !important;
+}
+
+#slideshow .slides img { position:absolute; z-index:1; width:960px; }
+
+#slideshow .slides .caption { 
+	position:absolute;
+	top:40px;
+	left:638px; 
+	color:#fff; 
+	width:258px; 
+	z-index:500;
+	
+}
+#slideshow .slides h2 { font-size:1.6em;color:#fff; }
+#slideshow .slides h3 { font-size:1.3em;color:#fff; }
+
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > NAVIGATION
+/* ---------------------------------------------------- */
+#slideshow .slides-nav  {
+	height:16px;
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	z-index:100;
+}
+
+#slideshow .slides-nav li { float: left; }
+
+#slideshow .slides-nav li a {
+	display: block;
+	width:18px;
+	height:18px;
+	line-height:18px;
+	outline: none;
+	background-color:#fff;
+	color:#424242;
+	margin-right:4px;
+	text-align:center;
+	border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius:2px;
+}
+
+#slideshow .slides-nav li a:hover { background-color:#000; color:#fff; text-decoration:none; }
+
+.js #slideshow .slides-nav li.on,
+.js #slideshow .slides-nav li.on a {
+	background-color:#000; color:#fff; text-decoration:none;
+}
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > PREV NEXT BUTTONS
+/* ---------------------------------------------------- */
+#slide-previous, #slide-next {
+	display:block;
+	width:30px;
+	height:123px;
+	position:absolute;
+	top:120px;
+	background:transparent url(../images/slideshow/arrows-sprite.png) no-repeat;
+	text-indent:-99999px;
+	z-index:1000;
+}
+#slide-previous { left:0px; background-position:0 0; }
+#slide-previous:hover { background-position: -30px 0; }
+#slide-next { right:0px; background-position:0 -123px; }
+#slide-next:hover { background-position: -30px -123px; }
