@@ -450,7 +450,7 @@
 	
 	/* PAGE HEADERS */
 	.page-header {
-		margin: 10px 0 0 0;
+		margin:0;
 		border:none;
 		padding:20px;
 		background-repeat:no-repeat;
@@ -477,7 +477,7 @@
 	}
 	
 	.page-header-small {
-		min-height:auto;
+		min-height:auto !important;
 	}
 	
 	.page-header-unbuilt-britain {
@@ -503,6 +503,10 @@
 		font-size:36px;
 		font-weight:300;
 		text-transform:inherit;
+	}
+	
+	.page-header-small h1 {
+		margin:0;
 	}
 	
 	.page-header-content-container {
