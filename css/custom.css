@@ -477,7 +477,7 @@
 	}
 	
 	.page-header-small {
-		min-height:auto !important;
+		min-height:0;
 	}
 	
 	.page-header-unbuilt-britain {
