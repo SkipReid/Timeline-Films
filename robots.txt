@@ -1,6 +1,3 @@
 User-agent: * 
 
 Disallow: /fonts/
-Disallow: /css/
-Disallow: /js/
-Disallow: /Old-Site/
