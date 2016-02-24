@@ -461,6 +461,7 @@
 	.page-header-content-container {
 		position:relative;
 		min-height:300px;
+        text-shadow: 0 0 5px #050505;
 	}
 	
 	.page-header-content {
@@ -498,6 +499,10 @@
 	.page-header-gtosi {
 		background-image:url(../img/productions/gtosi/header-bg-sml.jpg);
 	}
+
+    .page-header-how-the-rich {
+        background-image:url(../img/productions/how-the-rich-avoid-tax/header-bg-sml.jpg);
+    }
 	
 	.page-header h1 {
 		font-size:36px;
@@ -507,10 +512,6 @@
 	
 	.page-header-small h1 {
 		margin:0;
-	}
-	
-	.page-header-content-container {
-		text-shadow: 0 0 5px #050505;
 	}
 	
 	.no-page-header-row { padding-top:80px; }
@@ -539,6 +540,10 @@
 		.page-header-gtosi {
 			background-image:url(../img/productions/gtosi/header-bg.jpg);
 		}
+
+        .page-header-how-the-rich {
+            background-image:url(../img/productions/how-the-rich-avoid-tax/header-bg.jpg);
+        }
 		
 		.page-header h1 {
 			margin-top:0;
