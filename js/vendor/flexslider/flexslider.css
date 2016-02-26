@@ -260,6 +260,11 @@ html[xmlns] .flexslider .slides {
 		width: 100%;
 		
 	}
+
+    .caption-container.caption-right {
+        right:0;
+        left:auto;
+    }
 	
 	.caption {
 		background-color: rgba(0, 0, 0, .5);
