@@ -503,6 +503,10 @@
     .page-header-how-the-rich {
         background-image:url(../img/productions/how-the-rich-avoid-tax/header-bg-sml.jpg);
     }
+		
+	.page-header-facelifts-and-fillers {
+		background-image:url(../img/productions/facelifts-and-fillers/header-bg-sml.jpg);
+	}
 	
 	.page-header h1 {
 		font-size:36px;
@@ -541,9 +545,13 @@
 			background-image:url(../img/productions/gtosi/header-bg.jpg);
 		}
 
-        .page-header-how-the-rich {
-            background-image:url(../img/productions/how-the-rich-avoid-tax/header-bg.jpg);
-        }
+    .page-header-how-the-rich {
+       background-image:url(../img/productions/how-the-rich-avoid-tax/header-bg.jpg);
+    }
+		
+		.page-header-facelifts-and-fillers {
+			background-image:url(../img/productions/facelifts-and-fillers/header-bg.jpg);
+		}
 		
 		.page-header h1 {
 			margin-top:0;
