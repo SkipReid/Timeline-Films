@@ -363,7 +363,7 @@
 	.black-img-bg {
 		padding-top:60px;
 		min-height:418px;
-		background: #050505 url(../img/backgrounds/portrait-black.jpg) 50% 0 no-repeat;
+		background: #050505 url(../img/backgrounds/) 50% 0 no-repeat;
 		
         -webkit-background-size: cover;
         -moz-background-size: cover;
