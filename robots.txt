@@ -1,6 +1,5 @@
 User-agent: * 
 
 Disallow: /fonts/
-Disallow: /css/
-Disallow: /js/
-Disallow: /Old-Site/
+
+Sitemap: http://www.timelinefilms.co.uk/sitemap.xml

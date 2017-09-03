@@ -1,355 +1,420 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
-	<title>Grand Tours of the Scottish Islands - Series 1 | Productions | Timeline Films</title>
-	<meta name="keywords" content="Grand Tours of the Scottish Islands - Series 1" />
-	<meta name="description" content="Timeline films have produced 'Grand Tours of the Scottish Islands' for BBC Scotland" />
+	    <meta name="google-site-verification" content="h8Q21qzOaYj3z6yxiUdHOQQSsFy6aeYYsBQyBja0Ens" />
 	
-	<meta name="country" content="GB" />
-	<meta name="copyright" content="(C) Timeline Films. 2011 unless otherwise stated." />
-	<meta name="creator" content="Timeline Films" />
-	<meta name="publisher" content="Timeline Films" />
-	
-	<meta name="robots" content="all,follow,index" />
-	<meta name="revisit-after" content="3 days" />
-	
-	<link rel="icon" href="../../../images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon" />
-	
-	<link rel="stylesheet" href="../../../css/styles.css" type="text/css" media="screen, projection" />
+	    <title>Grand Tours of the Scottish Islands - Series 1 | Productions | Timeline Films</title>
 
-  	<!--[if lt IE 8]><link rel="stylesheet" href="../../css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+	    <meta name="description" content="Timeline films have produced 'Grand Tours of the Scottish Islands' for BBC Scotland, presented by Paul Murton" />
 	
-	<script src="../../../js/modernizr-2.6.1.min.js"></script>
-    
-	<!-- JWPlayer -->
-	<script type="text/javascript" src="../../../Video/jwplayer.js"></script>
+	    <meta name="country" content="GB" />
+	    <meta name="copyright" content="(C) Timeline Films. 2015 unless otherwise stated." />
+	    <meta name="creator" content="Timeline Films" />
+	    <meta name="publisher" content="Timeline Films" />
 	
-</head>
+	    <meta name="robots" content="all,follow,index" />
+	    <meta name="revisit-after" content="3 days" />
+	
+	    <link rel="icon" href="../../../favicon.ico" type="image/x-icon" />
+	    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" />
 
-<body id="episode-page">
-
-	<div id="page-wrapper">
-
-		<div id="page">
+		<!-- Bootstrap -->
+		<link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Add Animate -->
+		<link href="../../../css/animate.css" rel="stylesheet" />
+		<link href="../../../css/custom.css" rel="stylesheet" />
 		
-			<div id="header">
-			
-				<h1><a href="../../../index.html" title="Timeline Films home page">Timeline Films</a></h1>
-			
-				<ul id="navigation">
-					<li class="home"><a href="../../../index.html" title="Home">Home</a></li>
-					<!--<li class="news"><a href="../../News/index.html" title="News">News</a></li>-->
-					<li class="productions has-subnav"><a href="javascript:void();" class="selected" title="Productions">Productions</a>
-						<ul class="nav-sub-menu">
-							<li><a href="../../unbuilt-britain/index.html" title="Dreaming the Impossible: UnBuilt Britain">Dreaming the Impossible: UnBuilt Britain</a></li>
-							<li><a href="../../power-to-the-pococks/index.html" title="Power to the Pococks">Power to the Pococks</a></li>
-							<li><a href="../../victorian-villains/index.html" title="Victorian Villains">Victorian Villains</a></li>
-							<li><a href="../../the-mayan-apocalypse-2012/index.html" title="The Mayan Apocalypse 2012">The Mayan Apocalypse 2012</a></li>
-							<li><a href="index.html" title="Grand Tours of the Scottish Islands - Series 1">Grand Tours of the Scottish Islands - Series 1</a></li>
-							<li><a href="../series-2/index.html" title="Grand Tours of the Scottish Islands - Series 2">Grand Tours of the Scottish Islands - Series 2</a></li>
-							<li><a href="../series-3/index.html" title="Grand Tours of the Scottish Islands - Series 3">Grand Tours of the Scottish Islands - Series 3</a></li>
-							<li><a href="../../grand-tours-of-scotland/series-1/index.html" title="Grand Tours of Scotland - Series 1">Grand Tours of Scotland - Series 1</a></li>
-							<li><a href="../../grand-tours-of-scotland/series-2/index.html" title="Grand Tours of Scotland - Series 2">Grand Tours of Scotland - Series 2</a></li>
-                            <li><a href="../../grand-tours-of-scotland/series-3/index.html" title="Grand Tours of Scotland - Series 3">Grand Tours of Scotland - Series 3</a></li>
-						</ul>
-					</li>
-					<li class="people"><a href="../../../people.html" title="People">People</a></li>
-					<li class="get-in-touch"><a href="../../../get-in-touch.html" title="Get in touch">Get in touch</a></li>
-				</ul>
+		<!-- Google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900' rel='stylesheet' type='text/css'>
+	
+    	<script src="../../../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+				.gradient {
+					filter: none;
+				}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+  		
+		<!-- NAVIGATION HEADER -->
+		<div class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+			  		
+					<button type="button" id="menu-button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+			  		</button>
+					
+					<div itemscope itemtype="https://schema.org/logo">
+						<a itemprop="url" class="navbar-brand logo" href="http://www.timelinefilms.co.uk/" title="Home page">
+							<img itemprop="logo" class="img-responsive" src="../../../img/timelinefilms.svg" alt="Timeline Films - Scottish independent television production company" />
+						</a>
+					</div>﻿
+					
+				</div>
 				
-				<ul class="social-links">
-					<li class="twitter"><a href="https://twitter.com/timeline_films" target="_blank" title="Follow Grand Tours of Scotland on Twitter"><img src="../../../images/logos/twitter.jpg" width="40" height="40" alt="Follow Grand Tours of Scotland on Twitter"></a></li>
-					<li class="facebook"><a href="https://www.facebook.com/timelineglasgow" target="_blank" title="Follow Grand Tours of Scotland on Facebook"><img src="../../../images/logos/fb.jpg" width="40" height="40" alt="Follow Grand Tours of Scotland on Facebook"></a></li>
-				</ul>
-			
+				<nav class="collapse navbar-collapse" role="navigation">
+			  		<ul class="nav navbar-nav">
+						<li><a href="../../../index.html">Home </a></li>
+						<li class="active dropdown">
+							<a href="javascript:void();" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productions <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../../facelifts-and-fillers/index.html">Facelifts and Fillers</a></li>
+                                <li><a href="../../how-the-rich-avoid-tax/index.html">How the rich avoid tax - C4 Dispatches</a></li>
+                                <li><a href="../../unbuilt-britain/index.html">Dreaming the Impossible: UnBuilt Britain <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../../power-to-the-pococks/index.html">Power to the Pococks</a></li>
+                                <li><a href="../../victorian-villains/index.html">Victorian Villains</a></li>
+                                <li><a href="../../the-mayan-apocalypse-2012/index.html">The Mayan Apocalypse 2012</a></li>
+                                <li><a href="index.html">Grand Tours of the Scottish Islands - Series 1</a></li>
+                                <li><a href="../../grand-tours-of-the-scottish-islands/series-2/index.html">Grand Tours of the Scottish Islands - Series 2</a></li>
+                                <li><a href="../../grand-tours-of-the-scottish-islands/series-3/index.html">Grand Tours of the Scottish Islands - Series 3</a></li>
+                                <li><a href="../../grand-tours-of-the-scottish-islands/series-4/index.html">Grand Tours of the Scottish Islands - Series 4</a></li>
+                                <li><a href="../../grand-tours-of-scotland/series-1/index.html">Grand Tours of Scotland - Series 1</a></li>
+                                <li><a href="../../grand-tours-of-scotland/series-2/index.html">Grand Tours of Scotland - Series 2</a></li>
+                                <li><a href="../../grand-tours-of-scotland/series-3/index.html">Grand Tours of Scotland - Series 3</a></li>
+                            </ul>
+						</li>
+						<li><a href="../../../people.html">People</a></li>
+						<li><a href="../../../get-in-touch.html">Get in touch</a></li>
+			  		</ul>
+				</nav><!--/.nav-collapse -->
+				
 			</div>
-							   
-			<div id="content" class="clearfix">
-				
-				<div class="row">
-			
-					<div class="main-content">
-	
-						<h2>Grand Tours of the Scottish Islands - Series 1</h2>
-
-						<p>We are an island nation, and Scotland can be characterised by the myriad of islands that lay off the coast, 
-						and stud the country's many inland lochs. These islands are not just a glorious adornment to Scottish scenery; 
-						they also have a huge cultural and historical significance, which is largely forgotten.</p>
-						<p>In Grand Tours of the Scottish Islands, Paul Murton sets out to experience island life today. He will explore 
-						our often-violent island legacy, discovering how island life is in our blood. With his characteristic enthusiasm 
-						and lightness of touch Paul uncovers the past and reveals its connections with the &quot;here and now&quot;, pointing to 
-						the quirky, the surprising, and the beautiful lying just off shore.</p>
-						<p>Broadcast for 6 weeks starting from September 23rd on BBC1 Scotland at 7:30pm.</p>
-						
-						<p class="bot-margin-32"></p>
-						
-						<!-- AddThis Button BEGIN -->
-						<div class="addthis_toolbox addthis_default_style">
-							<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-							<a class="addthis_button_tweet"></a>
-							<a class="addthis_button_google_plusone"></a>
-						</div>
-						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e32a91977bbe8a1"></script>
-						<!-- AddThis Button END -->
-						
-					</div>
-					
-					<div class="sidebar noBgColour">
-					
-						<div class="logo-col">
-							<img class="rhs-logo" src="../../../images/logos/bbc-scotland-logo-sml.jpg" alt="BBC Scotland" width="64" height="52" />
-							<a href="http://www.facebook.com/pages/Grand-Tours-of-Scotland/122081521145915" title="Grand Tours on Facebook" target="_blank">
-								<img class="rhs-logo" src="../../../images/logos/fb.jpg" width="40" height="40" alt="">
-							</a>
-						</div>
-						
-					</div>
-				
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-				
-					<div class="main-content work-main">
-						
-							<h2>From Foula to Fair Isle</h2>
-							<h3>Episode 1</h3>
-							<p class="grey">First broadcast BBC1 Scotland September 23rd 2013</p>
-												
-							<p>In the first episode of Grand Tours of the Scottish Islands, Paul Murton sets out to visit the myriad of islands 
-							that hug our coastline. He heads straight for Britain's two remotest island communities, Foula and Fair Isle in Shetland. 
-							Paul makes a nerve wracking visit to &quot;Da Sneck o' da Smallie&quot; – a ravine in the cliffs of Foula which leads through to 
-							the island's Atlantic shore. On Fair Isle, Paul attempts to spot rare birds before meeting some of the knitters behind 
-							the beautiful patterns which have made Fair Isle world famous.</p>
-		
-					</div>
-					
-					<div class="sidebar">
-											
-						<div id="video-1">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-1").setup({
-								file: "../../../Video/GToSI-1-Ep1.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-01.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-						
-						<p>Watch a trailer.</p>
-	
-					</div>
-
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-					<div class="main-content work-main">
-
-						<h2>Landlocked islands</h2>
-						<h3>Episode 2</h3>
-						<p class="grey">First broadcast BBC1 Scotland September 30th 2013</p>
-						
-						<p>In the second episode of the series Paul Murton turns his back on the sea and discovers the secrets of Scotland's 
-						landlocked islands; on the bonnie, bonnie banks of Loch Lomond. Paul takes a stunning microlight flight across the loch, 
-						for a bird's eye view of one of Scotland's most iconic beauty spots, before island hopping from Inchcailloch, to 
-						Inchmurrin and Inchtavannach to meet some of the extraordinary people who live there.</p>
-	
-					</div>
-					
-					<div class="sidebar">
-						
-						<div id="video-2">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-2").setup({
-								file: "../../../Video/GToSI-1-Ep2.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-02.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-						
-						<p>Watch a trailer.</p>
-						
-					</div>
-					
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-					<div class="main-content work-main">
-
-						<h2>Small Is Beautiful</h2>
-						<h3>Episode 3</h3>
-						<p class="grey">First broadcast BBC1 Scotland October 7th 2013</p>
-						
-						<p>On this Grand Tour Paul sets off from Mallaig to visit a group of islands famed for their unusual names; Rum, Muck and Eigg. 
-						Paul meets the real 'Lord Muck'; visits the dramatic Kinloch Castle on Rum and joins the Eigg's islanders in a very special 
-						celebration of the island's community buyout.</p>
-	
-					</div>
-					
-					<div class="sidebar">
-					
-						<div id="video-3">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-3").setup({
-								file: "../../../Video/GToSI-1-Ep3.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-03.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-	
-						<p>Watch a trailer.</p>
-						
-					</div>
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-					<div class="main-content work-main">
-				
-						<h2>Island Pilgrimage</h2>
-						<h3>Episode 4</h3>
-						<p class="grey">First broadcast BBC1 Scotland October 14th 2013</p>
-						
-						<p>Continuing his island-hopping odyssey Paul sets sail on an island pilgrimage in the footsteps of saints, visiting Lismore, 
-						Colonsay and Oronsay.  Paul hears the extraordinary story of Saint Moluag who established a monastery on Lismore; joins writer 
-						Alexander McCall Smith on his yacht and learns about the remarkable secrets revealed by a Viking ship burial on Colonsay.</p>
-	
-					</div>
-					
-					<div class="sidebar">
-						
-						<div id="video-4">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-4").setup({
-								file: "../../../Video/GToSI-1-Ep4.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-04.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-						
-						<p>Watch a trailer.</p>
-						
-					</div>
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-					<div class="main-content work-main">
-								
-						<h2>Fortress Islands of the Forth</h2>
-						<h3>Episode 5</h3>
-						<p class="grey">First broadcast BBC1 Scotland October 21st 2013</p>
-						
-						<p>In the fifth episode, Paul Murton explores the islands scattered in the Firth of Forth. He discovers that these 
-						seemingly peaceful islands have a dramatic history of war; from Medieval English raids on the monastic island retreat 
-						of Inchcolm, to the first air raid attack on Britain above Inchgarvie. Paul learns about the strategic importance of 
-						Inchkeith's defences during two world wars, before heading to the Bass Rock, to learn more about the history of 
-						prisoners incarcerated on this unforgiving rock, with 160,000 gannets for company.</p>
-	
-					</div>
-					
-					<div class="sidebar">
-						
-						<div id="video-5">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-5").setup({
-								file: "../../../Video/GToSI-1-Ep5.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-05.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-						
-						<p>Watch a trailer.</p>
-						
-					</div>
-				</div>
-				
-				<div class="divider in-text-divider"></div>
-				
-				<!-- row -->
-				<div class="row">
-					<div class="main-content work-main">
-						
-						<h2>Against the Odds</h2>
-						<h3>Episode 6</h3>
-						<p class="grey">First broadcast BBC1 Scotland October 28th 2013</p>
-						
-						<p>On his final grand tour of the series Paul Murton goes over the sea to Skye to visit the home of celebrated 
-						writer and naturalist Gavin Maxwell, before scaling the famous Cuillin mountain, Am Basteir. On the nearby Isle 
-						of Raasay he learns about &quot;Calum's Road&quot; – the amazing true story of the determined crofter, Calum Macleod, who 
-						singlehandedly built a road to connect his isolated community.</p>
-	
-					</div>
-					
-					<div class="sidebar">
-						
-						<div id="video-6">Loading the player...</div>
-						<script type="text/javascript">
-							jwplayer("video-6").setup({
-								file: "../../../Video/GToSI-1-Ep6.flv",
-								image: "../../../Video/thumbs/gtsi-s1-ep-06.jpg",
-								height: 225,
-								width: 400,
-							});
-						</script>
-						
-						<p>Watch a trailer.</p>
-						
-					</div>
-				</div>
-
-			</div>
-			
 		</div>
 		
-	</div>
-	
-	<div id="footer-wrapper">
-	
-		<div id="footer">
-				
-			<p>Timeline Films  <span>T:</span>  + 0044 141 255 0323 <span>E:</span> <a href="mailto:arlenejeffrey@timelinefilms.co.uk">arlenejeffrey@timelinefilms.co.uk</a></p>
-					
+        <!-- PAGE HEADER ROW -->
+        <div class="page-header page-header-gtosi" data-type="background" data-speed="2">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-8 page-header-content-container">
+                        <div class="page-header-content">
+                            <h1>Grand Tours of the Scottish Islands - Series 1</h1>
+                            <p class="lead">In Grand Tours of the Scottish Islands, Paul Murton sets out to experience island life today, travelling to some of the most remote and isolated places in Europe, and meeting the people who call these islands home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </div>
+
+
+        <!-- PROGRAMME OVERVIEW ROW -->
+        <div class="grey-horz-gradient padded-row">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-md-push-6">
+                        <img class="img-responsive img-has-frame" src="../../../img/productions/gtosi/GToSI-card.jpg" alt="Grand Tours of the Scottish Islands - Series 1" />
+                    </div>
+
+                    <div class="col-md-6 col-md-pull-6 text-white">
+                        <h2 class="no-top-margin-desktop">About the show</h2>
+                        <p>On this first island odessey, Paul travels from the remote island of Foula in Shetland, to the Small Isles of the Inner Hebrides, and then onto the landlocked islands of Loch Lomond, to discover the secrets of some of the most beautiful places in Scotland.</p>
+                        <p>Originally broadcast in the autumn of 2013 on BBC1 Scotland, and repeated on BBC2 in the autumn of 2015.</p>
+
+                        <ul class="list-unstyled list-inline inline-margin-bottom">
+                            <li><img src="../../../img/logos/bbc-scotland.jpg" width="66" height="37" alt="BBC Scotland"></li>
+                            <li><img src="../../../img/logos/two.jpg" width="66" height="37" alt="BBC2"></li>
+                        </ul>
+
+                        <h4>Follow the show on social...</h4>
+                        <ul class="social-links-list list-unstyled list-inline">
+                            <li class="facebook"><a href="https://www.facebook.com/Grand-Tours-of-Scotland-122081521145915/?fref=ts" target="_blank" title="Follow us on Facebook">Facebook</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div><!-- /.row -->
+
+            </div><!-- /.container -->
+        </div>
+
+
+        <!-- EPISODE LIST -->
+        <ul class="list-unstyled episode-list off-white-bg">
+            <li class="padded-row">
+                <!-- EPISODE ROW 1 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 wow fadeInLeft">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep1.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep1.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep1.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep1.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 wow fadeInRight">
+                            <h2 class="no-top-margin-desktop">From Foula to Fair Isle <small>- ep1</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland September 23rd 2013</p>
+                            <p>
+                                In the first episode of Grand Tours of the Scottish Islands, Paul Murton sets out to visit the myriad of islands
+                                that hug our coastline. He heads straight for Britain&rsquo;s two remotest island communities, Foula and Fair Isle in Shetland.
+                                Paul makes a nerve wracking visit to &quot;Da Sneck o&rsquo; da Smallie&quot; – a ravine in the cliffs of Foula which leads through to
+                                the island&rsquo;s Atlantic shore. On Fair Isle, Paul attempts to spot rare birds before meeting some of the knitters behind
+                                the beautiful patterns which have made Fair Isle world famous.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+            <li class="padded-row">
+                <!-- EPISODE ROW 2 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 col-md-push-6 wow fadeInRight">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep2.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep2.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep2.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep2.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 col-md-pull-6 wow fadeInLeft">
+                            <h2 class="no-top-margin-desktop">Landlocked Islands <small>- ep2</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland September 30th 2013</p>
+                            <p>
+                                In the second episode of the series Paul Murton turns his back on the sea and discovers the secrets of Scotland's
+                                landlocked islands; on the bonnie, bonnie banks of Loch Lomond. Paul takes a stunning microlight flight across the loch,
+                                for a bird's eye view of one of Scotland's most iconic beauty spots, before island hopping from Inchcailloch, to
+                                Inchmurrin and Inchtavannach to meet some of the extraordinary people who live there.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+            <li class="padded-row">
+                <!-- EPISODE ROW 3 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 wow fadeInLeft">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep3.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep3.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep3.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep3.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 wow fadeInRight">
+                            <h2 class="no-top-margin-desktop">Small Is Beautiful <small>- ep3</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland October 7th 2013</p>
+                            <p>
+                                On this Grand Tour Paul sets off from Mallaig to visit a group of islands famed for their unusual names; Rum, Muck and Eigg.
+                                Paul meets the real &rsquo;Lord Muck&lsquo;; visits the dramatic Kinloch Castle on Rum and joins the Eigg&rsquo;s islanders in a very special
+                                celebration of the island's community buyout.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+            <li class="padded-row">
+                <!-- EPISODE ROW 4 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 col-md-push-6 wow fadeInRight">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep4.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep4.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep4.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep4.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 col-md-pull-6 wow fadeInLeft">
+                            <h2 class="no-top-margin-desktop">Island Pilgrimage <small>- ep4</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland October 14th 2013</p>
+                            <p>
+                                Continuing his island-hopping odyssey Paul sets sail on an island pilgrimage in the footsteps of saints, visiting Lismore,
+                                Colonsay and Oronsay.  Paul hears the extraordinary story of Saint Moluag who established a monastery on Lismore; joins writer
+                                Alexander McCall Smith on his yacht and learns about the remarkable secrets revealed by a Viking ship burial on Colonsay.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+            <li class="padded-row">
+                <!-- EPISODE ROW 5 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 wow fadeInLeft">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep5.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep5.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep5.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep5.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 wow fadeInRight">
+                            <h2 class="no-top-margin-desktop">Fortress Islands of the Forth <small>- ep5</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland October 21st 2013</p>
+                            <p>
+                                In the fifth episode, Paul Murton explores the islands scattered in the Firth of Forth. He discovers that these
+                                seemingly peaceful islands have a dramatic history of war; from Medieval English raids on the monastic island retreat
+                                of Inchcolm, to the first air raid attack on Britain above Inchgarvie. Paul learns about the strategic importance of
+                                Inchkeith's defences during two world wars, before heading to the Bass Rock, to learn more about the history of
+                                prisoners incarcerated on this unforgiving rock, with 160,000 gannets for company.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+            <li class="padded-row">
+                <!-- EPISODE ROW 6 -->
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-md-6 col-md-push-6 wow fadeInRight">
+                            <div class="video-wrapper">
+                                <video controls preload="metadata" poster="http://www.timelinefilms.co.uk/Video/gtosi-s1/poster-ep6.jpg">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep6.webm" type="video/webm">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep6.mp4" type="video/mp4">
+                                    <source src="http://www.timelinefilms.co.uk/Video/gtosi-s1/GTSI-s1-ep6.ogv" type="video/ogv; codecs=theora,vorbis">
+                                    <p>Your browser does not support the video tag.</p>
+                                </video>
+                            </div>
+                        </aside>
+
+                        <article class="col-md-6 col-md-pull-6 wow fadeInLeft">
+                            <h2 class="no-top-margin-desktop">Against the Odds <small>- ep6</small></h2>
+                            <p class="text-grey"><i class="glyphicon glyphicon-facetime-video"></i> First broadcast BBC1 Scotland October 28th 2013</p>
+                            <p>
+                                On his final grand tour of the series Paul Murton goes over the sea to Skye to visit the home of celebrated
+                                writer and naturalist Gavin Maxwell, before scaling the famous Cuillin mountain, Am Basteir. On the nearby Isle
+                                of Raasay he learns about &quot;Calum's Road&quot; – the amazing true story of the determined crofter, Calum Macleod, who
+                                singlehandedly built a road to connect his isolated community.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+		
+		
+		<!-- ADVERT ROW -->
+		<div class="light-grey-vert-gradient">
+			<div class="container">
+				<div class="row padded-row">
+					<div class="col-md-6">
+						<h2 class="small">Buy Grand Tours of Scotland DVDs</h2>
+						<p>Series 1 and 2 of Grand Tours is now available on DVD from the following;</p>
+						<h4>BBC Shop</h4>
+							<ul class="list-unstyled feature-list">
+								<li><a class="btn btn-primary btn-external-link" href="http://www.bbcshop.com/travel/grand-tours-of-scotland-series-1-dvd/invt/dazd0014" target="_blank">Grand Tours of Scotland: Series 1</a></li>
+							</ul>
+							<h4>Amazon.co.uk</h4>
+							<ul class="list-unstyled feature-list">
+								<li><a class="btn btn-primary btn-external-link" href="http://www.amazon.co.uk/Grand-Tours-Of-Scotland-Series/dp/B00CIWS5T6" target="_blank">Grand Tours of Scotland: Series 1</a></li>
+								<li><a class="btn btn-primary  btn-external-link" href="http://www.amazon.co.uk/Grand-Tours-Of-Scotland-Series/dp/B00CJFTWZS" target="_blank">Grand Tours of Scotland: Series 2</a></li>
+							</ul>
+					</div>
+					<div class="col-md-6 text-center">
+						<img class="img-responsive has-drop-shadow" src="../../../img/productions/gtos/gtos-s1-dvd.jpg" alt="Buy Grand Tours of Scotland DVDs" />
+					</div>
+				</div>
+			</div><!-- /.container -->
 		</div>
 		
-	</div>
+		
+		<!-- FOOTER ROW -->
+		<div class="container">
+			<footer class="row site-footer clearfix">
+				<div class="col-md-12">
+					<p>
+						<span class="mobile-block">&copy; Timeline Films 2015</span>   
+						<span class="mobile-hide pipe-divider">|</span> 
+						<span class="mobile-block"><i class="glyphicon glyphicon-phone-alt"></i>  + <a href="tel:0141 255 0323">0044 141 255 0323</a></span>
+						<span class="mobile-hide pipe-divider">|</span> 
+						<span class="mobile-block"><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:arlenejeffrey@timelinefilms.co.uk">arlenejeffrey@timelinefilms.co.uk</a></span>
+						<span class="mobile-hide pipe-divider">|</span>  
+						<span class="mobile-block"><a href="../../../terms.html">Terms &amp; Conditions</a></span>
+					</p>
+					<ul class="social-links-list list-unstyled list-inline">
+						<li class="facebook"><a href="https://www.facebook.com/timelineglasgow" target="_blank" title="Follow us on Facebook">Facebook</a></li>
+						<li class="twitter"><a href="https://twitter.com/timeline_films" target="_blank" title="Follow us on Twitter">Twitter</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div><!-- /.container -->
 
-<!-- Google Analytics--> 	
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-2636778-8']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="../../../js/vendor/bootstrap.min.js"></script>
+		<script src="../../../js/main.js"></script>
+		<script src="../../../js/vendor/wow/wow.min.js"></script>
+		<script>
+			$(window).load(function() {
+				wow = new WOW( {
+                      mobile: false
+                    }
+				)
+				wow.init();
+			});		
+			
+			$(document).scroll(function() {
+				//changes the transparency of the navbar as user scrolls down
+				if ($(this).scrollTop() < 180) {
+					$('.home-page .navbar-inverse').attr('style', 'background-color:rgba(34,34,34,.3)');
+				} else {
+					$('.home-page .navbar-inverse').css('background-color', '#222');
+				}
+			});
+			
+			$('.navbar-collapse').on('show.bs.collapse', function() {
+				$('.home-page .navbar-inverse').css('background-color', '#222');
+			});
+			
+			$('.navbar-collapse').on('hidden.bs.collapse', function() {
+				$('.home-page .navbar-inverse').attr('style', 'background-color:rgba(34,34,34,.3)');
+			});
+									
+		</script>
+		
+		<!-- GOOGLE ANYLITICS -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-2636778-8', 'auto');
+			ga('send', 'pageview');
+		</script>
+		
+	</body>
 </html>
